@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header-heading">
+            <h1 id="gallery-name">KDGallery</h1>
+        </div>
+        <select id="pageSelector" onchange="navigateToPage()">
+            <option value="">Select Images</option>
+            <option value="index3.html">Birds Images</option>
+            <option value="index2.html">Nature Images</option>
+            <option value="god.html">God Images</option>
+            <option value="taj.html">Ancient Images</option>
+        </select>
+        <a href="index.html" id="gallery-icon"><i class='fas fa-images'></i></a>
+    </header>
+    
+    <section class="contact-form">
+        <div class="form">
+            <h2>Contact Us</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" placeholder="Name">
+
+            <label for="mobile">Mobile No.:</label>
+            <input type="number" placeholder="Mobile Number">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="E-Mail ID">
+
+            <label for="address">Address:</label>
+            <input type="text" placeholder="Address">   
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
